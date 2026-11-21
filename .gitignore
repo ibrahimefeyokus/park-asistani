@@ -1,0 +1,25 @@
+# Derleme çıktıları
+.gradle/
+build/
+.kotlin/
+captures/
+
+# Makineye özel
+local.properties
+.idea/
+*.iml
+
+# İmza anahtarları ve şifreler — ASLA depoya girmez
+*.jks
+*.keystore
+*.p12
+*.pem
+keystore.properties
+signing.properties
+*.apk
+*.aab
+
+# Çalışma notları ve ekran görüntüleri (ev konumu görünebilir)
+.superpowers/
+*.png
+!app/src/main/res/**/*.png
